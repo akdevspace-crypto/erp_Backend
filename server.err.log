@@ -1,0 +1,39 @@
+(node:22084) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22084) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+Error: Staff has no login. Enable login during onboarding.
+    at buildHttpError (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:6:19)
+    at resolveAssignableStaffContext (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:121:15)
+    at async addFollowUpQuery (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/repository.js:385:11)
+    at async addFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/service.js:63:22)
+    at async handleAddFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/controller.js:51:24) {
+  status: 400
+}
+Error: Staff has no login. Enable login during onboarding.
+    at buildHttpError (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:6:19)
+    at resolveAssignableStaffContext (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:121:15)
+    at async addFollowUpQuery (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/repository.js:385:11)
+    at async addFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/service.js:63:22)
+    at async handleAddFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/controller.js:51:24) {
+  status: 400
+}
+Error: Staff has no login. Enable login during onboarding.
+    at buildHttpError (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:6:19)
+    at resolveAssignableStaffContext (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:121:15)
+    at async addFollowUpQuery (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/repository.js:385:11)
+    at async addFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/service.js:63:22)
+    at async handleAddFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/controller.js:51:24) {
+  status: 400
+}
+Error: Staff has no login. Enable login during onboarding.
+    at buildHttpError (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:6:19)
+    at resolveAssignableStaffContext (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/tasks/service.js:121:15)
+    at async addFollowUpQuery (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/repository.js:385:11)
+    at async addFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/service.js:63:22)
+    at async handleAddFollowUp (file:///E:/Akash/Web_project/Artibots/ERP_@/Backend/src/modules/enquiry/controller.js:51:24) {
+  status: 400
+}
