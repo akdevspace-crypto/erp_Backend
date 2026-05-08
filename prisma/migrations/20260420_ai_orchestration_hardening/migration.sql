@@ -1,0 +1,20 @@
+ALTER TABLE "Enquiry"
+ADD COLUMN "summary" TEXT,
+ADD COLUMN "urgency" VARCHAR(20);
+
+ALTER TABLE "Task"
+ADD COLUMN "priority" VARCHAR(20) NOT NULL DEFAULT 'MEDIUM',
+ADD COLUMN "aiSummary" TEXT,
+ADD COLUMN "aiUrgency" VARCHAR(20),
+ADD COLUMN "enquiryId" TEXT;
+
+ALTER TABLE "Task"
+ALTER COLUMN "assigneeId" DROP NOT NULL;
+
+CREATE INDEX "Task_enquiryId_idx" ON "Task"("enquiryId");
+
+ALTER TABLE "Task"
+ADD CONSTRAINT "Task_enquiryId_fkey"
+FOREIGN KEY ("enquiryId") REFERENCES "Enquiry"("id")
+ON DELETE SET NULL
+ON UPDATE CASCADE;
